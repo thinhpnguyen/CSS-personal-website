@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+.top_container {
+  background-color: #eaf6f6;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 100px;
+  position: relative;/* Because the images are absolute so have to set this to relative */ 
+}
+
+.first_cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.second_cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.gradi{ /*transition from blue to white */
+  padding: 2%;
+  background: linear-gradient(180deg, rgba(234,246,246,1) 0%, rgba(255,255,255,1) 100%);
+}
+.profile{
+  width: 30%;
+  margin: auto;
+}
+.hello{
+  margin-top: 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+span{
+  text-decoration: underline;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+hr{
+  /* width: 5%;
+  margin : 5rem auto;
+  border-style : dotted none none none;
+  border-width : 0.3rem;
+  border-color : #eaf6f6; */
+  border: dotted 6px #eaf6f6;
+  border-bottom: none;
+  width: 4%;
+  margin : 6.25rem auto;
+}
+p {
+    line-height: 2;
+}
+
+.subtitle{
+  font-weight: normal;
+  font-size: 2.2rem;
+}
+.skill-row{
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+}
+.skill-image1{ /*part of skill-row */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 0;
+}
+.btn{
+  -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 4rem auto 4rem auto;
+   font-size: 16px;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.015);
+    transition-duration: 0.25s;
+}
+
+.footer-link{
+  display: inline-block;
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem 1rem 1rem 1rem;
+}
+.footer-link:hover{
+  color: #eaf6f6;
+}
+.copy-right{
+  color:#eaf6f6;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
